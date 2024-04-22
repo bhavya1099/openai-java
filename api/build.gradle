@@ -11,6 +11,13 @@ dependencies {
     testImplementation libs.jacksonDatabind
     testImplementation(platform(libs.junitBom))
     testImplementation('org.junit.jupiter:junit-jupiter')
+
+//dependency added by roostGPT
+testImplementation("org.projectlombok:lombok:1.18.24")
+
+//dependency added by roostGPT
+testImplementation("org.projectlombok:lombok:1.18.24")
+testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
 }
 
 compileJava {
